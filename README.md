@@ -35,6 +35,6 @@ After the preparation execute any or all of the following cammands:
     
     `java -jar quick.jar -u -d filesDescriptions.xml -i fixedlength fixedlength/identical/ordersTableDump-01-12-2017.csv fixedlength/identical/ordersTableDump-01-01-2018.csv`
 
-  * verify that fiex length files pass some checks
+* verify that fixed length files pass some checks
     
-    `java -jar quick.jar -u -d filesDescriptions.xml -i fixedlength fixedlength/checks/ordersTableDump-01-12-2017.csv fixedlength/checks/ordersTableDump-01-01-2018.csv`
+  `java -jar quick.jar -u -d filesDescriptions.xml -i fixedlength fixedlength/checks/ordersTableDump-01-12-2017.csv fixedlength/checks/ordersTableDump-01-01-2018.csv`
