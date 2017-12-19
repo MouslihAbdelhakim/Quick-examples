@@ -17,16 +17,24 @@ After the preparation execute any or all of the following cammands:
 
   * compare two different delimited files
     
-    `java -jar quick.jar -d filesDescriptions.xml -i delimited delimited/different/ordersTableDump-01-12-2017.csv delimited/different/ordersTableDump-01-01-2018.csv`
+    `java -jar quick.jar -u -d filesDescriptions.xml -i delimited delimited/different/ordersTableDump-01-12-2017.csv delimited/different/ordersTableDump-01-01-2018.csv`
 
   * compare two identical delimited files
     
-    `java -jar quick.jar -d filesDescriptions.xml -i delimited delimited/identical/ordersTableDump-01-12-2017.csv delimited/identical/ordersTableDump-01-01-2018.csv`
+    `java -jar quick.jar -u -d filesDescriptions.xml -i delimited delimited/identical/ordersTableDump-01-12-2017.csv delimited/identical/ordersTableDump-01-01-2018.csv`
+
+  * verify that delimited files pass some checks
+    
+    `java -jar quick.jar -u -d filesDescriptions.xml -i delimited delimited/checks/ordersTableDump-01-12-2017.csv delimited/checks/ordersTableDump-01-01-2018.csv`
 
  * compare two different fixed length files
     
-    `java -jar quick.jar -d filesDescriptions.xml -i fixedlength fixedlength/different/ordersTableDump-01-12-2017.csv fixedlength/different/ordersTableDump-01-01-2018.csv`
+    `java -jar quick.jar -u -d filesDescriptions.xml -i fixedlength fixedlength/different/ordersTableDump-01-12-2017.csv fixedlength/different/ordersTableDump-01-01-2018.csv`
 
 * compare two identical fixed length files
     
-    `java -jar quick.jar -d filesDescriptions.xml -i fixedlength fixedlength/identical/ordersTableDump-01-12-2017.csv fixedlength/identical/ordersTableDump-01-01-2018.csv`
+    `java -jar quick.jar -u -d filesDescriptions.xml -i fixedlength fixedlength/identical/ordersTableDump-01-12-2017.csv fixedlength/identical/ordersTableDump-01-01-2018.csv`
+
+  * verify that fiex length files pass some checks
+    
+    `java -jar quick.jar -u -d filesDescriptions.xml -i fixedlength fixedlength/checks/ordersTableDump-01-12-2017.csv fixedlength/checks/ordersTableDump-01-01-2018.csv`

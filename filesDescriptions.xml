@@ -33,6 +33,7 @@
                     useDuringReporting="true"
                     trimValue="true"
                     ignoreValueCase="true"
+                    checkColumnValueMatches=" *[0-9]+ *"
             />
             <ColumnDescription
                     label="last delivery date"
@@ -141,6 +142,7 @@
                     useDuringReporting="true"
                     trimValue="true"
                     ignoreValueCase="true"
+                    checkColumnValueMatches="[0-9]+"
             />
             <ColumnDescription
                     label="last delivery date"
