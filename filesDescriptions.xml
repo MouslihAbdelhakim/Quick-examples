@@ -1,4 +1,4 @@
-<FileDescriptionsList>
+<FilesDescriptionsList>
     <UnorderedFileDescription id="fixedlength" >
         <FixedOrderedRowDescription label="records" >
             <ColumnIdentifier
@@ -10,7 +10,7 @@
                     useDuringValidation="true"
                     useDuringMatching="true"
                     useDuringReporting="true"
-                    trimValue="true"
+                    trimComparisonValue="true"
             />
             <ColumnDescription
                     label="creation date"
@@ -20,8 +20,8 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="true"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="last delivery id"
@@ -31,8 +31,8 @@
                     useDuringValidation="false"
                     useDuringMatching="false"
                     useDuringReporting="true"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
                     checkColumnValueMatches=" *[0-9]+ *"
             />
             <ColumnDescription
@@ -43,8 +43,8 @@
                     useDuringValidation="false"
                     useDuringMatching="false"
                     useDuringReporting="true"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="taken from warehouse"
@@ -54,8 +54,8 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="false"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="salesman name"
@@ -65,8 +65,8 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="true"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="item"
@@ -76,8 +76,8 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="true"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="quantity"
@@ -87,8 +87,8 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="false"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="Price per item"
@@ -98,8 +98,8 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="false"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="total price"
@@ -109,8 +109,8 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="false"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
         </FixedOrderedRowDescription>
     </UnorderedFileDescription>
@@ -123,7 +123,7 @@
                     useDuringValidation="true"
                     useDuringMatching="true"
                     useDuringReporting="true"
-                    trimValue="true"
+                    trimComparisonValue="true"
             />
             <ColumnDescription
                     label="creation date"
@@ -131,8 +131,8 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="true"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="last delivery id"
@@ -140,8 +140,8 @@
                     useDuringValidation="false"
                     useDuringMatching="false"
                     useDuringReporting="true"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
                     checkColumnValueMatches="[0-9]+"
             />
             <ColumnDescription
@@ -150,8 +150,8 @@
                     useDuringValidation="false"
                     useDuringMatching="false"
                     useDuringReporting="true"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="taken from warehouse"
@@ -159,8 +159,8 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="false"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="salesman name"
@@ -168,8 +168,8 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="true"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="item"
@@ -177,8 +177,8 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="true"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="quantity"
@@ -186,8 +186,8 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="false"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="Price per item"
@@ -195,8 +195,8 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="false"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
             <ColumnDescription
                     label="total price"
@@ -204,9 +204,9 @@
                     useDuringValidation="true"
                     useDuringMatching="false"
                     useDuringReporting="false"
-                    trimValue="true"
-                    ignoreValueCase="true"
+                    trimComparisonValue="true"
+                    ignoreComparisonValueCase="true"
             />
         </DelimitedOrderedRowDescription>
     </UnorderedFileDescription>
-</FileDescriptionsList>
+</FilesDescriptionsList>
